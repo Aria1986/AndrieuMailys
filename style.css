@@ -1,0 +1,39 @@
+
+#montagnes_arriere{
+    /* background-image: url('img/montagne_arriere.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    width: 1708px;
+    height: 937.05px;
+    left: 201px;
+    top: 29px;
+}
+
+#montagnes_milieu{
+    position: absolute;
+    width: 2955px;
+    height: 345px;
+    left: -1053px;
+    top: 563px;
+}
+
+#montagnes_devant{
+    position: absolute;
+    width: 1522px;
+    height: 381px;
+    left: 0px;
+    top: 600px;
+}
+
+#rapace{
+    background-image: url('./img/rapace.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 198px;
+    height: 115px;
+
+}
