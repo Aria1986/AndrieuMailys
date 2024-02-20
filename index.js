@@ -6,6 +6,7 @@ var paysage = document.getElementById('paysage');
 
 new simpleParallax(montagneDevant,{
     orientation:'up'
+
 });
 new simpleParallax(montagneArriere,{
     orientation:'down right'

@@ -1,52 +1,54 @@
-body{
-    margin:0px;
-}
+
 #header{
     height: 70px;
 }
 
 #paysage{
-    /* BG Hero */
-
-position: absolute;
-width: 1920px;
-height: 1200px;
-left: 0px;
-top: 0px;
-background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
-
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+    margin-bottom:12%;
+    padding:0px;
 }
 #montagnes_arriere{
-    width: 1708px;
+    /* width: 1708px;
     height: 937.05px;
     left: 70%;
-    top: 20%;
+    top: 20%; */
+    margin-left:10%;
 }
 
 #montagnes_milieu{
     position: absolute;
-    width: 2955px;
-    height: 345px;
-    left: -1053px;
-    top: 563px;
+    /* width: 2955px;
+    height: 345px; */
+    margin-top:-8%;
+    /* left: -1053px;
+    top: 563px; */
 }
 
 #montagnes_devant{
     position: absolute;
-    width: 1522px;
-    height: 381px;
-    left: 0px;
-    top: 600px;
-}
+    /* width: 1522px;
+    height: 381px; */
+    /* left: 0px;
+    top: 600px;*/
+      margin-top:-13%;
+      margin-right:10%;
+} 
 
 #rapace{
-    background-image: url('./img/rapace.png');
+    /* background-image: url('./img/rapace.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     position: absolute;
     left: 15%;
     top: 15%;
     width: 198px;
     height: 115px;
+}
 
+#apropos{
+    z-index:1;
 }
