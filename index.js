@@ -30,7 +30,7 @@ new simpleParallax(rapace,{
         const x =  e.pageX / window.innerWidth;
         const y = e.pageY / window.innerHeight;
     
-        elem.style.transform = `translateX(${-x*10}px) translateY(${-y*10}px)`;
+        elem.style.transform = `translateX(${-x*100}px) translateY(${-y*100}px)`;
         console.log(position)
     }
 
