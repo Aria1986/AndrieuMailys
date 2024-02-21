@@ -9,10 +9,10 @@ new simpleParallax(montagneDevant,{
 
 });
 new simpleParallax(montagneArriere,{
-    orientation:'down right'
+    orientation:'down',delay:0.7
 });
 new simpleParallax(montagneMilieu,{
-    orientation:'down'
+    orientation:'down', delay:0.4
 });
 
 

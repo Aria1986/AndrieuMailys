@@ -1,28 +1,19 @@
-$--bs-body-color
+
+body{
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+}
 .navbar-brand, .nav-link{
     color:white;
 }
 
-#header{
-    height: 70px;
-}
-
 #paysage{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+    position: relative;
     margin-bottom:12%;
     padding:0px;
 }
 #montagnes_arriere{
-    /* width: 1708px;
-    height: 937.05px;
-    left: 70%;
-    top: 20%; */
-    margin-left:10%;
+    margin-top: 7rem;
 }
-
 #montagnes_milieu{
     position: absolute;
     /* width: 2955px;
@@ -49,6 +40,36 @@ $--bs-body-color
   
 }
 
-#apropos{
-    z-index:1;
+#slider{
+    /* Slider BG */
+    position: sticky;
+    width: 3px;
+    height: 240px;
+    left: 1437px;
+    top: 312px;
+
+    /* Weiß */
+    background: #FFFFFF;
+    z-index: 2;
+    opacity:0.7;
+}
+
+.indicator{
+    /* Slider Indicator */
+    position: sticky;
+    width: 3px;
+    height: 60px;
+    left: 1337px;
+    top: 512px;
+
+    /* Weiß */
+    background: #FFFFFF;  
+}
+#bienvenu{
+    position:absolute;
+    width:315px;
+    top:100px;
+    left:30px;
+    padding: 5px;
+    z-index: 1;
 }
