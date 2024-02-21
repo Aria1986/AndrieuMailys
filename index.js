@@ -16,11 +16,6 @@ new simpleParallax(montagneMilieu,{
 });
 
 
-new simpleParallax(rapace,{
-    orientation:'down',
-    scale:1.2
-});
-
 (function() {
     // Add event listener
     paysage.addEventListener("mousemove", parallax);

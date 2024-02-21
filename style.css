@@ -1,3 +1,7 @@
+$--bs-body-color
+.navbar-brand, .nav-link{
+    color:white;
+}
 
 #header{
     height: 70px;
@@ -39,14 +43,10 @@
 } 
 
 #rapace{
-    /* background-image: url('./img/rapace.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
     position: absolute;
     left: 15%;
     top: 15%;
-    width: 198px;
-    height: 115px;
+  
 }
 
 #apropos{
