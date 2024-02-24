@@ -2,12 +2,14 @@
 body{
     background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
 }
+
 .navbar-brand, .nav-link{
     color:white;
 }
 
-#paysage{
+#accueil{
     position: relative;
+    top:0px;
     margin-bottom:12%;
     padding:0px;
 }
@@ -25,57 +27,59 @@ body{
 
 #montagnes_devant{
     position: absolute;
-    /* width: 1522px;
-    height: 381px; */
-    /* left: 0px;
-    top: 600px;*/
       margin-top:-13%;
       margin-right:10%;
 } 
 
 #rapace{
     position: absolute;
-    left: 15%;
+    left: 50%;
     top: 15%;
   
 }
 
 #menubarre{
-    position: sticky;
+    position: fixed;
     left: 1337px;
-    top: 312px;
+    top: 250px;
     width:100px;
-    z-index: 1;
+    z-index: 100;
+}
+#menubarre a{
+    text-decoration: none;
+    color:white;
 }
 #slider{
     /* Slider BG */
-   
     width: 3px;
-    height: 240px;
-   
-
+    height: 240px;  
     /* Weiß */
     background: #FFFFFF;
     z-index: 2;
     opacity:0.5;
 }
 
-.indicator{
+#indicateur{
     /* Slider Indicator */
-    position: sticky;
     width: 3px;
     height: 60px;
-    left: 1337px;
-    top: 512px;
-
+    position: absolute;
+    top: 0;
+    right: 0;
     /* Weiß */
     background: #FFFFFF;  
 }
+
+#menubarre h5 a:hover #indicateur {
+    left: calc(50% - 5px);
+  }
 #bienvenu{
     position:absolute;
-    width:315px;
-    top:100px;
-    left:30px;
+    width:350px;
+    /* top:80px; */
     padding: 5px;
     z-index: 1;
+}
+.active{
+    color:aqua;
 }

@@ -9,23 +9,33 @@
     
 </head>
 <body  data-bs-theme="dark">
-    <div id="paysage" class="container-fluid ">
+  <div id="menubarre" class="d-flex">
+    <div class="d-flex flex-column justify-content-between m-2">    
+      <h5><a href="#accueil">Accueil</h5>
+      <h5><a href="#apropos">A propos</a></h5>
+      <h5><a href="#projets"> Projets</a></h5>
+      <h5><a href="#contact">Contact</a></h5>
+    </div>   
+    <span id="slider"></span>
+    <span id="indicateur"></span>
+  </div>
+    <section id="accueil" class="container-fluid ">
         <nav id="header" class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Maïlys Andrieu</a>
+              <a class="navbar-brand" href="#accueil">Maïlys Andrieu</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav m-auto">
                   <li class="nav-item">
-                    <a class="nav-link active " aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active " aria-current="page" href="#accueil">Accueil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">A propos</a>
+                    <a class="nav-link" href="#apropos">A propos</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#projets" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Projets
                     </a>
                     <ul class="dropdown-menu">
@@ -38,41 +48,53 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                   
                 </ul>
               </div>
             </div>
           </nav> 
-          <div id="bienvenu">   
+          <div id="bienvenu" class="m-5 ">   
             <h1>Bienvenu</h1>
             <p>J’ai été initiée depuis mon jeune âge à l’informatique grace à mon grand-père qui a eu la chance d’être un des premiers ingénieurs informaticiens.
               Dotée d’un esprit logique j’ai effectué des études scientifiques, ma curiosité m’a amené à découvrir divers univers et ma perdévérance à terminer tous mes projets avec succès.
               Je me suis penché récemment sur le métier de développeuse web qui se trouve rassembler toutes mes compétences et assouvir mon besoin d’apporter quelque chose au monde via mon intellect.</p>
           </div> 
-          <div id="menubarre" class="d-flex">
-            <div class="d-flex flex-column justify-content-between m-2">    
-              <h5>Accueil</h5>
-              <h5>A propos</h5>
-              <h5>Projets</h5>
-              <h5>Contact</h5>
-            </div>   
-            <span id="slider"></span>
-          </div>
+          
         <img id="montagnes_arriere" class="img-fluid" src='img/montagne_arriere.png' alt="montagnes au fond"/>
         <img id="montagnes_milieu" class="img-fluid" src='img/montagne_milieu.png' alt="montagnes au milieu"/>
         <img id="montagnes_devant" class="img-fluid" src="./img/montagne_devant.png" alt="montagnes noires"/>
         <img id="rapace" class="col-1" src="./img/rapacep.png" alt="rapace de face"/>
-    </div>
-<div id="apropos" class="bg-black m-auto p-2">
+    </section>
+<section id="apropos" class="bg-black mt-3 my-auto p-2">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
 
-</div>
+</section>
+<section id="projets" class="bg-black m-auto p-2">
+  <h1>projets</h1>
+  <p>Contenu de la section projets</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+
+</section>
+<section id="contact" class="bg-black m-auto p-2">
+  <h1>contact</h1>
+  <p>Contenu de la section contact</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+
+</section>
 </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>

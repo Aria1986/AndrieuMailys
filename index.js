@@ -2,7 +2,8 @@ var montagneDevant = document.getElementById('montagnes_devant');
 var montagneMilieu = document.getElementById('montagnes_milieu');
 var montagneArriere = document.getElementById('montagnes_arriere');
 var rapace = document.getElementById('rapace');
-var paysage = document.getElementById('paysage');
+var paysage = document.getElementById('accueil');
+const slider =
 
 new simpleParallax(montagneDevant,{
     orientation:'up'
@@ -31,3 +32,32 @@ new simpleParallax(montagneMilieu,{
     }
 
 })();
+const menu = document.getElementById("menubarre");
+const indicateur = document.getElementById("indicateur");
+const sections = document.querySelectorAll("section");
+
+window.addEventListener("scroll", () => {
+  let currentSection = "";
+
+  sections.forEach((section) => {
+    if (section.getBoundingClientRect().top < window.innerHeight) {
+      currentSection = section.id;
+      console.log('la section actuelle est:')
+      console.log(currentSection)
+    }
+  });
+
+  const menuItems = menu.querySelectorAll("a");
+  menuItems.forEach((item) => {
+    if (item.getAttribute("href") === `#${currentSection}`) {
+        console.log('section active:');
+        console.log(item);
+      item.classList.add("active");
+      indicateur.style.top = `${item.offsetTop}px`;
+    } else {
+      item.classList.remove("active");
+      console.log('section non active:');
+      console.log(item);
+    }
+  });
+});
