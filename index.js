@@ -48,12 +48,19 @@ window.addEventListener("scroll", () => {
   });
 
   const menuItems = menu.querySelectorAll("a");
+  console.log('les elelements du menu:')
+  console.log(menuItems)
   menuItems.forEach((item) => {
     if (item.getAttribute("href") === `#${currentSection}`) {
         console.log('section active:');
-        console.log(item);
+        console.log(currentSection);
       item.classList.add("active");
-      indicateur.style.top = `${item.offsetTop}px`;
+      if(currentSection == 'accueil'){
+        indicateur.style.top ='0px';
+      }
+      else{
+          indicateur.style.top = `${item.offsetTop}px`;
+      }
     } else {
       item.classList.remove("active");
       console.log('section non active:');
