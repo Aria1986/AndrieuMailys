@@ -12,14 +12,14 @@
   <div id="menubarre" class="d-flex">
     <div class="d-flex flex-column justify-content-around m-2">    
       <h5><a href="#accueil">Accueil</a></h5>
-      <h5><a href="#apropos">A propos</a></h5>
-      <h5><a href="#projets"> Projets</a></h5>
+      <h5><a href="#projets">Projets</a></h5>
+      <h5><a href="#apropos">A propos</a></h5>    
       <h5><a href="#contact">Contact</a></h5>
     </div>   
     <span id="slider"></span>
     <span id="indicateur"></span>
   </div>
-    <section id="accueil" class="container-fluid ">
+    <section id="accueil" class="container-fluid">
         <nav id="header" class="navbar navbar-expand-lg ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#accueil">Maïlys Andrieu</a>
@@ -31,15 +31,11 @@
                   <li class="nav-item">
                     <a class="nav-link active " aria-current="page" href="#accueil">Accueil</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#apropos">A propos</a>
-                  </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#projets" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Projets
-                    </a>
+                      Projets</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Présentation des projets</a></li>
+                      <li><a class="dropdown-item" href="#projets">Présentation des projets</a></li>
                       <li><a class="dropdown-item" target="_blank" href="https://www.botteaplante.fr/">Voir Botteaplante</a></li>
                       <li><a class="dropdown-item" target="_blank" href="https://aria1986.github.io/recettescuisine/dist/">Voir recettes</a></li>
                       <li>
@@ -47,6 +43,10 @@
                       </li>
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#apropos">A propos</a>
+                  </li>
+                  
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
@@ -67,24 +67,41 @@
         <img id="montagnes_devant" class="img-fluid" src="./img/montagne_devant.png" alt="montagnes noires"/>
         <img id="rapace" class="col-1" src="./img/rapacep.png" alt="rapace de face"/>
     </section>
-<section id="apropos" class="bg-black mt-3 my-auto p-2">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
+    <!-- les projets -->
+    <section id="projets" class="bg-black m-auto p-2">
+      <div class="d-flex justify-content-center ">
+        <div >
+          <div class="d-flex">
+            <span class="line my-auto me-2"></span>
+            <h2>Projets</h2>
+          </div>
+          <span class="my-auto mx-3 img-fluid"><img src="./img/projets.jpg" alt="photo profil mailys"/></span>    
+          </div>
+          <p class="col-5 my-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis adipisci rerum cumque nisi debitis porro, molestiae officia cum vero sequi, commodi voluptatum perferendis vitae est illum, neque ipsam culpa?
+          </p>   
+      </div>
+    </section>
+<section id="apropos" class="bg-black p-2">
+  <div class="d-flex justify-content-center">
+    <div class="col-5 mx-5">
+      <div class="d-flex">
+        <span class="line my-auto me-2"></span>
+        <h2>A propos</h2>
+      </div>
+        <p>Je suis Maïlys Andrieu, une développeuse passionnée qui a récemment effectuéune transition de carrière vers le monde excitant du développementinformatique. Après avoir travaillé dans la métallurgie et le commerce, j'ai découvert ma passion pour la programmation et j'ai décidé de poursuivre cette nouvelle voie avec détermination et enthousiasme.</p>
+        <a href="#">En savoir plus</a>
+          <!-- <p>Bien que je sois relativement nouvelle dans le domaine du développement, j'ai déjà acquis une solide base de compétences et de connaissances grâce à mes formations, un apprentissage autodidacte intense et à des projets personnelsstimulants. Je suis familier avec des langages tels que HTML, CSS, JavaScriptet PHP, les frameworks Bootstrap, (Saas), React et Laravel, avec Figma, Git,etTrello des notions de Java et Python ainsi qu'avec des concepts clés dedéveloppement web et de conception logicielle.
+          Mon parcours professionnel antérieur m'a permis de développer descompétences précieuses en gestion de projet, en résolution de problèmes et encommunication, que je mets à profit dans mon nouveau rôle de développeuse. Jesuis également une apprenante avide de nouvelles connaissances, toujours prêteà relever de nouveaux défis et à perfectionner mes compétences.</p>
+          <p>En dehors du développement, j'ai un intérêt pour réparer et/ou améliorer les objets et les espaces en fonction des moyens du bord.</p>
+          <p>Je suis convaincu que l'alliance entre ma passion pour la technologie et mescompétences acquises lors de mes expériences pro et extra-professionnelles medonne une perspective unique qui peut apporter une valeur ajoutée à tout projetsur lequel je travaille.
+          Actuellement, je suis engagé dans une démarched'apprentissage continu et je suis ouvert à de nouvelles opportunitésprofessionnelles qui me permettront de développer mes compétences et decontribuer de manière significative à des projets passionnants.
+          Je suis impatiente de partager avec vous certainsdes projets sur lesquels j'ai travaillé et d'échanger des idées avec desprofessionnels de la programmation.</p> N'hésitez pas à explorer mon portfolio et àme contacter si vous souhaitez en savoir plus sur mes compétences et mesexpériences. Merci pour votre intérêt, et j'ai hâte de voir ce que l'avenirnous réserve dans ce monde passionnant du développement informatique !</p> -->
+    </div>
 
+    <span class="my-auto mx-2 img-fluid"><img src="./img/rando_petit.jpg" alt="photo profil mailys"/></span>
+  </div>
 </section>
-<section id="projets" class="bg-black m-auto p-2">
-  <h1>projets</h1>
-  <p>Contenu de la section projets</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
 
-</section>
 <section id="contact" class="bg-black m-auto p-2">
   <h1>contact</h1>
   <p>Contenu de la section contact</p>
@@ -95,6 +112,29 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae atque optio aspernatur suscipit qui eligendi voluptatem perspiciatis totam. Iure ducimus corporis voluptatibus illo ab dolores consequuntur totam maxime dignissimos voluptatem?</p>
 
 </section>
+</div>
+<!-- footer -->
+<div class="mt-5 p-3 container-fluid">
+  <div class="p-2 d-flex justify-content-center">
+    <a class="mx-5 mt-2" href="mailto:mailys.andrieu5@gmail.com">Me contacter</a>
+    <a target="_blank" "https://www.linkedin.com/in/ma%C3%AFlys-andrieu-08213684">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="31"
+        viewBox="0 0 448 512"
+      >
+        <!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+        <path
+          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+        />
+      </svg>
+    </a>
+  </div>
+  <div class="p-2 mt-2 d-flex justify-content-center">
+    <img src="./img/copyright.svg" alt="copyright" />
+    MailysAndrieu
+  </div>
 </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>

@@ -7,7 +7,6 @@ const slider =
 
 new simpleParallax(montagneDevant,{
     orientation:'up'
-
 });
 new simpleParallax(montagneArriere,{
     orientation:'down',delay:0.7

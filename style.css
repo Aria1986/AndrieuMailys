@@ -2,7 +2,20 @@
 body{
     background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
 }
-
+* {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+section{
+    min-height: 100vh;
+}
 .navbar-brand, .nav-link{
     color:white;
 }
@@ -11,11 +24,12 @@ body{
     position: relative;
     top:0px;
     margin-bottom:12%;
-    padding:0px;
+    overflow-x: clip;
 }
 #montagnes_arriere{
     margin-top: 7rem;
 }
+
 #montagnes_milieu{
     position: absolute;
     /* width: 2955px;
@@ -29,6 +43,8 @@ body{
     position: absolute;
       margin-top:-13%;
       margin-right:10%;
+      width:100%;
+          
 } 
 
 #rapace{
@@ -82,4 +98,14 @@ body{
 }
 .active{
     color:aqua;
+}
+.line{
+    display: block;
+    background-color:#FBD784;
+    height: 2px;
+    width:72px;
+}
+h2{
+    color:#FBD784;
+    text-transform: capitalize;
 }
