@@ -1,7 +1,13 @@
 
 body{
-    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+    background-color: white;
 }
+
+a{
+    text-decoration: none;
+    color:#cad8b8;
+}
+
 * {
     -webkit-box-sizing: content-box;
        -moz-box-sizing: content-box;
@@ -25,6 +31,8 @@ section{
     top:0px;
     margin-bottom:12%;
     overflow-x: clip;
+    background: linear-gradient(330.24deg, rgba(100, 157, 186, 0) 31.06%, #0B1D26 108.93%);
+    padding:0px;
 }
 #montagnes_arriere{
     margin-top: 7rem;
@@ -41,10 +49,9 @@ section{
 
 #montagnes_devant{
     position: absolute;
-      margin-top:-13%;
-      margin-right:10%;
-      width:100%;
-          
+    margin-top:-13%;
+    width:100%;
+    right:0px;
 } 
 
 #rapace{
@@ -89,6 +96,7 @@ section{
 #menubarre h5 a:hover #indicateur {
     left: calc(50% - 5px);
   }
+
 #bienvenu{
     position:absolute;
     width:350px;
@@ -108,4 +116,8 @@ section{
 h2{
     color:#FBD784;
     text-transform: capitalize;
+}
+
+#oiseaux{
+    opacity:0.7;
 }
