@@ -61,7 +61,6 @@ section{
   
 }
 
-
 #menubarre{
     position: fixed;
     left: 1337px;
@@ -125,4 +124,7 @@ h2{
 .card{
     width:380px;
     height: 480;
+}
+#cv{
+    z-index:1;
 }
