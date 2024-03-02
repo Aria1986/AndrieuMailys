@@ -64,21 +64,66 @@
     <img id="montagnes_devant" class="img-fluid" src="./img/montagne_devant.png" alt="montagnes noires"/>
     <img id="rapace" class="col-1" src="./img/rapacep.png" alt="rapace de face"/>
   </section>
+
     <!-- les projets -->
   <section id="projets" class="bg-black m-auto p-2">
-    <div class="d-flex justify-content-center ">
+    <div class="d-flex flex-column justify-content-center ">
       <div >
         <div class="d-flex">
           <span class="line my-auto me-2"></span>
           <h2>Projets</h2>
-        </div>
-        <span class="my-auto mx-3 img-fluid"><img src="./img/projets.jpg" alt="photo profil mailys"/></span>    
+        </div>        
+     <!-- <span class="my-auto mx-3 img-fluid"><img src="./img/projets.jpg" alt="photo profil mailys"/></span>    
       </div>
       <div class="col-5 my-auto">
         <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facilis adipisci rerum cumque nisi debitis porro, molestiae officia cum vero sequi, commodi voluptatum perferendis vitae est illum, neque ipsam culpa?</p>  
         <a href="#">En savoir plus</a> 
       </div>
+       -->
     </div>
+
+    <div class="d-flex justify-content-around mt-5">
+        <!-- carte projet botte a plante -->
+      <div class="card m-4 p-4" >    
+          <div class="card-body">
+          <h3 class="card-title">Botte à plante</h3>
+          <img src="./assets/img/botteaplante_petit.jpg" class="card-img-top my-4" alt="...">
+          <p class="card-text">Projet de fin d’étude: Réalisé de A à Z (en PHP).
+              Réalisation d’un cahier des charges, d’une maquette sur Figma ,dossier et powerpoint de presentation.</p>
+              <p><u>Outils utilisés:</u> Laravel, Tailwind, MySQL,
+                  Gitlab pour les suvegardes régulières,
+                  Wamp pour le développement local, Ovh pour l’hébergement</p>
+          <a href="http://www.botteaplante.fr/" target="_blank" class="btn btn-primary">Voir le projet</a>
+          </div>
+      </div>
+        <!-- carte projet recettes -->
+      <div class="card m-4 p-4" >
+          <h3 class="card-title">Recettes de cuisine</h3>
+          <img src="./assets/img/recettescuisine_petit.jpg" class="card-img-top my-4" alt="...">
+          <div class="card-body">
+          <p class="card-text">Projet utilisant l’API themealdb pour afficher des recettes.
+              Au chargement de la page  , il apparait 6 cartes recettes aléatoires.
+              Il est possible de chercher une recette par mot cré ou dans une liste déroulante par catégorie ou région.</p>
+              <p><u>Outils utilisés:</u> html,css, bootstrap,Saas, js, popper, themealdb API, github</p>
+          <a href="https://aria1986.github.io/recettescuisine/dist/" target="_blank" class="btn btn-primary">Voir le projet</a>
+          </div>
+      </div>
+  </div>
+  
+        <!-- carte carte intéractive-->
+      <div class="card m-4 p-4" >
+        <h3 class="card-title">Carte intéractive d'associations</h3>
+          <img src="./assets/img/carteinteractive.png" class="card-img-top my-4" alt="...">
+          <div class="card-body">
+          <p class="card-text">Carte intéractive permettant d'afficher l'emplacement des aides demandées ainsi que leur information d'ouverture.<br>
+            Des boutons permettent de sélectionner la catégorie d'aide recherchée.</p>
+              <p><u>Outils utilisés:</u> html, css, js, github, leaflet</p>
+          <a href="https://aria1986.github.io/mappingassociations/" target="_blank" class="btn btn-primary">Voir le projet</a>
+          </div>
+      </div>
+  </div>
+  
+
   </section>
     <!-- a propos -->
 <section id="apropos" class="bg-black p-2">
