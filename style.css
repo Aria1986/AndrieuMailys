@@ -26,9 +26,8 @@ section{
 #accueil{
     position: relative;
     top:0px;
-    margin-bottom:11%;
     overflow-x: clip;
-    background: linear-gradient(330.24deg, rgba(100, 157, 186, 0) 31.06%, #0B1D26 108.93%);
+    background: linear-gradient(330.24deg, rgba(234, 240, 243, 0) 31.06%, #0B1D26 108.93%);
     padding:0px;
 }
 #montagnes_arriere{
@@ -38,13 +37,13 @@ section{
 
 #montagnes_milieu{
     position: absolute;
-    margin-top:-8%;
+    margin-top:-15%;
     z-index:2;
 }
 
 #montagnes_devant{
     position: absolute;
-    margin-top:-13%;
+    margin-top:-23%;
     width:100%;
     right:0px;
     z-index:3;
@@ -56,11 +55,12 @@ section{
     top: 15%;
 }
 
-#rectanglenoir{
-    height:15%;
-    bottom:-105px;
-    z-index:0;
+@media (max-width: 778px){
+    #montagnes{
+        transform: translateY(200px);
+    }
 }
+
 
 #menubarre{
     position: fixed;

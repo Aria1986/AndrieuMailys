@@ -9,9 +9,9 @@ const slider =
 new simpleParallax(montagneDevant,{
     orientation:'up'
 });
-new simpleParallax(rectanglenoir,{
-    orientation:'down'
-});
+// new simpleParallax(rectanglenoir,{
+//     orientation:'down'
+// });
 new simpleParallax(montagneArriere,{
     orientation:'down',delay:0.7
 });
