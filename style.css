@@ -1,13 +1,10 @@
-
 body{
     background-color: white;
 }
-
 a{
     text-decoration: none;
     color:#cad8b8;
 }
-
 * {
     -webkit-box-sizing: content-box;
        -moz-box-sizing: content-box;
@@ -36,15 +33,13 @@ section{
 }
 #montagnes_arriere{
     margin-top: 7rem;
+    z-index:1;
 }
 
 #montagnes_milieu{
     position: absolute;
-    /* width: 2955px;
-    height: 345px; */
     margin-top:-8%;
-    /* left: -1053px;
-    top: 563px; */
+    z-index:2;
 }
 
 #montagnes_devant{
@@ -52,13 +47,19 @@ section{
     margin-top:-13%;
     width:100%;
     right:0px;
+    z-index:3;
 } 
 
 #rapace{
     position: absolute;
     left: 50%;
     top: 15%;
-  
+}
+
+#rectanglenoir{
+    height:15%;
+    bottom:-105px;
+    z-index:0;
 }
 
 #menubarre{
@@ -118,9 +119,6 @@ h2{
     text-transform: capitalize;
 }
 
-#oiseaux{
-    opacity:0.7;
-}
 .card{
     width:380px;
     height: 480;

@@ -9,6 +9,7 @@
     
 </head>
 <body  data-bs-theme="dark">
+  <!-- menu slider -->
   <div id="menubarre" class="d-flex">
     <div class="d-flex flex-column justify-content-around m-2">    
       <h5><a href="#accueil">Accueil</a></h5>
@@ -19,7 +20,9 @@
     <span id="slider"></span>
     <span id="indicateur"></span>
   </div>
+ 
   <section id="accueil" class="container-fluid">
+     <!-- header -->
     <nav id="header" class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#accueil">Maïlys Andrieu</a>
@@ -52,6 +55,7 @@
           </div>
         </div>
     </nav> 
+    <!-- contenu section accueil -->
     <div id="bienvenu" class="m-5 ">   
       <h1>Bienvenu</h1>
       <p>J’ai été initiée depuis mon jeune âge à l’informatique grace à mon grand-père qui a eu la chance d’être un des premiers ingénieurs informaticiens.
@@ -63,6 +67,7 @@
     <img id="montagnes_milieu" class="img-fluid" src='img/montagne_milieu.png' alt="montagnes au milieu"/>
     <img id="montagnes_devant" class="img-fluid" src="./img/montagne_devant.png" alt="montagnes noires"/>
     <img id="rapace" class="col-1" src="./img/rapacep.png" alt="rapace de face"/>
+    <div id="rectanglenoir" class="container-fluid position-absolute bg-black"></div>
   </section>
 
     <!-- les projets -->
@@ -119,7 +124,7 @@
   
 
   </section>
-    <!-- a propos -->
+  <!-- a propos -->
 <section id="apropos" class="bg-black p-2">
   <div class="d-flex justify-content-center">
     <div class="col-5 mx-5">
@@ -130,7 +135,7 @@
         <p>Je suis Maïlys Andrieu, une développeuse passionnée qui a récemment effectué une transition de carrière vers le monde excitant du développementinformatique. Après avoir travaillé dans la métallurgie et le commerce, j'ai découvert ma passion pour la programmation et j'ai décidé de poursuivre cette nouvelle voie avec détermination et enthousiasme.</p>
         <a href="apropos.html">En savoir plus</a>
     </div>
-    <span class="my-auto mx-2 img-fluid"><img src="./img/rando_petit.jpg" alt="photo profil mailys"/></span>
+    <div class="my-auto mx-2"><img class="img-fluid" src="./img/rando_petit.jpg" alt="photo profil mailys"/></div>
   </div>
 </section>
 <!-- contact -->
@@ -142,9 +147,9 @@
         <h2>Contact</h2>
       </div>
       <p>Basée sur Grenoble, vous pouvez me contacter par email ou sur linkedin:</p> 
-      <div class= " p-5 container-fluid bg-black">
-        <div class="p-2 mt-5 d-flex justify-content-center">
-          <a class="mx-5 mt-2" href="mailto:mailys.andrieu5@gmail.com"><img src="./img/envelop.svg" alt="enveloppe"/> M'envoyer un e-mail'</a>
+      <div class= " py-5 container-fluid bg-black">
+        <div class="mt-5 d-flex justify-content-center">
+          <a class="me-5 mt-2" href="mailto:mailys.andrieu5@gmail.com"><img src="./img/envelop.svg" alt="enveloppe"/> M'envoyer un e-mail'</a>
           <a target="_blank"  href="https://www.linkedin.com/in/ma%C3%AFlys-andrieu-08213684">
             <svg
               xmlns="http://www.w3.org/2000/svg"
