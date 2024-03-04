@@ -1,17 +1,12 @@
 var montagneDevant = document.getElementById('montagnes_devant');
 var montagneMilieu = document.getElementById('montagnes_milieu');
 var montagneArriere = document.getElementById('montagnes_arriere');
-var rectanglenoir = document.getElementById('rectanglenoir');
 var rapace = document.getElementById('rapace');
 var paysage = document.getElementById('accueil');
-const slider =
 
 new simpleParallax(montagneDevant,{
     orientation:'up'
 });
-// new simpleParallax(rectanglenoir,{
-//     orientation:'down'
-// });
 new simpleParallax(montagneArriere,{
     orientation:'down',delay:0.7
 });
@@ -45,18 +40,12 @@ window.addEventListener("scroll", () => {
   sections.forEach((section) => {
     if (section.getBoundingClientRect().top < window.innerHeight) {
       currentSection = section.id;
-      console.log('la section actuelle est:')
-      console.log(currentSection)
     }
   });
 
   const menuItems = menu.querySelectorAll("a");
-  console.log('les elelements du menu:')
-  console.log(menuItems)
   menuItems.forEach((item) => {
     if (item.getAttribute("href") === `#${currentSection}`) {
-        console.log('section active:');
-        console.log(currentSection);
       item.classList.add("active");
       if(currentSection == 'accueil'){
         indicateur.style.top ='0px';
@@ -66,8 +55,6 @@ window.addEventListener("scroll", () => {
       }
     } else {
       item.classList.remove("active");
-      console.log('section non active:');
-      console.log(item);
     }
   });
 });

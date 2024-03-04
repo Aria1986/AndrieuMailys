@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:black;
 }
 a{
     text-decoration: none;
@@ -128,17 +128,11 @@ h2{
 }
 #textepresentation{
     padding-left:15%;
-    /* z-index:1; */
 }
-/* #liane{
-    z-index:1;
-} */
+
 @media (max-width: 576px){
     #textepresentation{
         text-align: center;
-        /* padding-left:0; */
-        /* margin-right: 5px; */
-        /* transform: translate(-100px, 200px); */
     }
     #liane{
         transform: translateY(100px);
