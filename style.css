@@ -100,9 +100,7 @@ section{
 
 #bienvenu{
     position:absolute;
-    width:350px;
-    /* top:80px; */
-    padding: 5px;
+    padding: 4px;
     z-index: 1;
 }
 .active{
@@ -136,5 +134,8 @@ h2{
     }
     #liane{
         transform: translateY(100px);
+    }
+    #bienvenu{
+        width:320px;
     }
 }
